@@ -1,18 +1,22 @@
-## Getting Started
+# Java Collections Performance Test
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This project tests the performance of various Java collections (`LinkedList`, `HashSet`, `TreeSet`, `LinkedHashSet`, `ArrayList`, `ArrayDeque`, `PriorityQueue`, `HashMap`, `TreeMap`, `LinkedHashMap`) with 100,000 random integers.
 
-## Folder Structure
+## Setup
 
-The workspace contains two folders by default, where:
+1. Make sure you have Java installed on your system.
+2. Clone this repository to your local machine.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Running the Tests
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. Open the project in your favorite Java IDE.
+2. Run the `App` class as the main class.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Results
 
-## Dependency Management
+The program will output the performance metrics for each collection, including add time, check available time, remove time, and clear time.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Conclusion
+
+Based on the test results, you can analyze the performance of each collection and choose the best one for your use case.
+
